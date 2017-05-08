@@ -1,39 +1,55 @@
-
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
 }
-.title{
-  font-size: 350%;
-  text-align: center;
-  font-family: "Palatino Linotype", arial,Times;
-  background: rgba(76, 175, 80, 0.3);
+
+/*Header*/
+.title {
+    font-size: 350%;
+    text-align: center;
+    font-family: "Palatino Linotype", arial, times;
+    background: rgba(76, 175, 80, 0.3);
 }
-.intro{
-  display: flex;
+
+
+/*Contents*/
+.intro {
+    display: flex;
 }
+
+
 .bandphoto {
-  margin-left: 30px;
+    margin-left: 30px;
 }
-.music{
-  margin-top: 20px;
+
+
+.music {
+    margin-top: 20px;
 }
-.albumtext{
-  margin-bottom: 40px;
-  font-size: large;
+
+
+.albumtext {
+    margin-bottom: 40px;
+    font-size: large;
 }
+
+
 #youtube {
-  text-align: center;
-  font-family: "arial black",arial, verdana;
+    text-align: center;
+    font-family: "Arial Black", arial, verdana;
 }
+
+
 .albums {
-  height:400px;
-  width:1200px;
-  overflow:hidden;
+    height: 400px;
+    width: 1200px;
+    overflow: hidden;
 }
+
+
 .albums img {
-  height:200px;
-  width:210px;
+    height: 200px;
+    width: 210px;
 }
